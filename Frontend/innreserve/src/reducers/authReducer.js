@@ -39,4 +39,10 @@ const authReducer = (state, action) => {
         user: null,
         error: action.payload,
       };
-    export default authReducer;
+    default:
+      return state; // Ensure to return the current state by default
+  }
+};
+
+export default authReducer; // Move this outside of the switch statement
+
