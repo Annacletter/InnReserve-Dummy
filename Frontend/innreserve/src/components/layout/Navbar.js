@@ -12,9 +12,11 @@ const Navbar = () => {
 
   const authLinks = (
     <Fragment>
-      <li>Hello {user && user.name}</li>
-      <li>
-        <a onClick={onLogout} href="#!">
+      <li className="nav-item">
+        <span className="nav-link">Hello {user && user.name}</span>
+      </li>
+      <li className="nav-item">
+        <a onClick={onLogout} href="#!" className="nav-link">
           <i className="fas fa-sign-out-alt"></i> <span className="hide-sm">Logout</span>
         </a>
       </li>
@@ -23,21 +25,27 @@ const Navbar = () => {
 
   const guestLinks = (
     <Fragment>
-      <li>
-	  className="buttons">
-            <Link to="/register" className="btn btn-primary">Register</Link>
-            <Link to="/login" className="btn btn-light">Login</Link>
+      <li className="nav-item">
+        <Link to="/register" className="btn btn-primary mr-2">Register</Link>
+        <Link to="/login" className="btn btn-light">Login</Link>
       </li>
     </Fragment>
   );
 
   return (
-    <div className="navbar bg-primary">
-      <h1>
-        <Link to="/">InnReserve</Link>
-      </h1>
-      <ul>{isAuthenticated ? authLinks : guestLinks}</ul>
-    </div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div className="container">
+        <Link to="/" className="navbar-brand">InnReserve</Link>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ml-auto">
+            {isAuthenticated ? authLinks : guestLinks}
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 };
 
