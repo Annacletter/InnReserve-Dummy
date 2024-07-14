@@ -9,6 +9,15 @@ import BookingList from './components/bookings/BookingList';
 import AuthState from './context/AuthState';
 import BookingState from './context/BookingState';
 import setAuthToken from './utils/setAuthToken';
+import image1 from './images/image1.jpg';
+import image2 from './images/image2.jpg';
+import image3 from './images/image3.jpg';
+import image5 from './images/image5.jpg';
+import image7 from './images/image7.jpg';
+import image8 from './images/image8.jpg';
+import image9 from './images/image9.jpg';
+import image10 from './images/image10.jpg';
+import image11 from './images/image11.jpg';
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
