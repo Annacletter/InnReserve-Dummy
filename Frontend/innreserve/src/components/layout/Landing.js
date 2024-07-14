@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../../App';
+import App from '../../App';  // This should correctly reference App.js
 import { Link } from 'react-router-dom';
 
 const Landing = () => {
@@ -20,4 +20,3 @@ const Landing = () => {
 };
 
 export default Landing;
-
