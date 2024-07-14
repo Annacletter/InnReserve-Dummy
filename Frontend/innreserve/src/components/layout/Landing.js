@@ -1,4 +1,5 @@
 import React from 'react';
+import App from './app';
 import { Link } from 'react-router-dom';
 
 const Landing = () => {
