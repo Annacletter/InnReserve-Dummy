@@ -1,5 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import image1 from './images/image1.jpg';
+import image2 from './images/image2.jpg';
+import image3 from './images/image3.jpg';
+import image5 from './images/image5.jpg';
+import image7 from './images/image7.jpg';
+import image8 from './images/image8.jpg';
+import image9 from './images/image9.jpg';
+import image10 from './images/image10.jpg';
+import image11 from './images/image11.jpg';
 
 const Landing = () => {
   return (
@@ -20,6 +29,17 @@ const Landing = () => {
           The InnReserve Booking System is an easy-to-use web application designed to make booking restaurants and hotels simple and efficient. It helps customers quickly secure their dining and lodging experiences while providing businesses with a handy tool to manage and improve their reservations.
           By offering a seamless reservation process, the InnReserve Booking System aims to enhance overall customer satisfaction. Additionally, it equips businesses with the tools they need to effectively manage and grow their operations.
         </p>
+      </div>
+      <div className="image-gallery">
+        <img src={image1} alt="Image 1" />
+        <img src={image2} alt="Image 2" />
+        <img src={image3} alt="Image 3" />
+        <img src={image5} alt="Image 5" />
+        <img src={image7} alt="Image 7" />
+        <img src={image8} alt="Image 8" />
+        <img src={image9} alt="Image 9" />
+        <img src={image10} alt="Image 10" />
+        <img src={image11} alt="Image 11" />
       </div>
     </div>
   );
