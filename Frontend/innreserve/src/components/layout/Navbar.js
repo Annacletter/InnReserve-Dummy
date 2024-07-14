@@ -24,10 +24,9 @@ const Navbar = () => {
   const guestLinks = (
     <Fragment>
       <li>
-        <Link to="/register">Register</Link>
-      </li>
-      <li>
-        <Link to="/login">Login</Link>
+	  className="buttons">
+            <Link to="/register" className="btn btn-primary">Register</Link>
+            <Link to="/login" className="btn btn-light">Login</Link>
       </li>
     </Fragment>
   );
