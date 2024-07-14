@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.062c3c65.css",
-    "main.js": "/static/js/main.c0b6eca0.js",
-    "static/js/453.673f1b01.chunk.js": "/static/js/453.673f1b01.chunk.js",
-    "index.html": "/index.html",
-    "main.062c3c65.css.map": "/static/css/main.062c3c65.css.map",
-    "main.c0b6eca0.js.map": "/static/js/main.c0b6eca0.js.map",
-    "453.673f1b01.chunk.js.map": "/static/js/453.673f1b01.chunk.js.map"
+    "main.css": "/Annacletter/InnReserve-Dummy/static/css/main.062c3c65.css",
+    "main.js": "/Annacletter/InnReserve-Dummy/static/js/main.8645cfbd.js",
+    "static/js/453.673f1b01.chunk.js": "/Annacletter/InnReserve-Dummy/static/js/453.673f1b01.chunk.js",
+    "index.html": "/Annacletter/InnReserve-Dummy/index.html",
+    "main.062c3c65.css.map": "/Annacletter/InnReserve-Dummy/static/css/main.062c3c65.css.map",
+    "main.8645cfbd.js.map": "/Annacletter/InnReserve-Dummy/static/js/main.8645cfbd.js.map",
+    "453.673f1b01.chunk.js.map": "/Annacletter/InnReserve-Dummy/static/js/453.673f1b01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.062c3c65.css",
-    "static/js/main.c0b6eca0.js"
+    "static/js/main.8645cfbd.js"
   ]
 }
