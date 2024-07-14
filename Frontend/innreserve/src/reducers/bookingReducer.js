@@ -4,7 +4,7 @@ import {
   BOOKING_ERROR,
 } from '../types';
 
-export default (state, action) => {
+const bookingReducer = (state, action) => {
   switch (action.type) {
     case GET_BOOKINGS:
       return {
@@ -25,3 +25,6 @@ export default (state, action) => {
       return state;
   }
 };
+
+export default bookingReducer;
+
