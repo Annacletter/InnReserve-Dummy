@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../../App';  // This should correctly reference App.js
+import App from '../App.js'; // Assuming app.js is in the src folder
 import { Link } from 'react-router-dom';
 
 const Landing = () => {
