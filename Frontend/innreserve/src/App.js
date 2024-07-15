@@ -9,6 +9,8 @@ import BookingList from './components/bookings/BookingList';
 import AuthState from './context/AuthState';
 import BookingState from './context/BookingState';
 import setAuthToken from './utils/setAuthToken';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);

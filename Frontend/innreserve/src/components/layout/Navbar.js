@@ -2,15 +2,7 @@ import React, { Fragment, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import AuthContext from '../../context/AuthContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: #fff;
-}
+import './App.css';
 
 const Navbar = () => {
   const authContext = useContext(AuthContext);
