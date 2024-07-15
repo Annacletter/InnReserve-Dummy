@@ -10,6 +10,15 @@ import image9 from './images/image9.jpg';
 import image10 from './images/image10.jpg';
 import image11 from './images/image11.jpg';
 
+.landing {
+  padding-top: 60px;
+}
+
+.img-container {
+  max-width: 50%;
+  height: auto;
+}
+
 const Landing = () => {
   return (
     <div className="landing">
