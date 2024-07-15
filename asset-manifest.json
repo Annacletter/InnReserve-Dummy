@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/InnReserve-Dummy/static/css/main.062c3c65.css",
-    "main.js": "/InnReserve-Dummy/static/js/main.1ae69791.js",
-    "static/js/453.c843fe01.chunk.js": "/InnReserve-Dummy/static/js/453.c843fe01.chunk.js",
+    "main.css": "/InnReserve-Dummy/static/css/main.286d946a.css",
+    "main.js": "/InnReserve-Dummy/static/js/main.c11f2fee.js",
+    "static/js/453.673f1b01.chunk.js": "/InnReserve-Dummy/static/js/453.673f1b01.chunk.js",
     "static/media/image9.jpg": "/InnReserve-Dummy/static/media/image9.0146a3e645e82fb767d3.jpg",
     "static/media/image11.jpg": "/InnReserve-Dummy/static/media/image11.86feb0bfd49a395c9b0e.jpg",
     "static/media/image1.jpg": "/InnReserve-Dummy/static/media/image1.b4c0fcb569ccb1e44221.jpg",
@@ -13,12 +13,12 @@
     "static/media/image7.jpg": "/InnReserve-Dummy/static/media/image7.28da505788344f38bf60.jpg",
     "static/media/image2.jpg": "/InnReserve-Dummy/static/media/image2.0568f1b2ff06bcaa5740.jpg",
     "index.html": "/InnReserve-Dummy/index.html",
-    "main.062c3c65.css.map": "/InnReserve-Dummy/static/css/main.062c3c65.css.map",
-    "main.1ae69791.js.map": "/InnReserve-Dummy/static/js/main.1ae69791.js.map",
-    "453.c843fe01.chunk.js.map": "/InnReserve-Dummy/static/js/453.c843fe01.chunk.js.map"
+    "main.286d946a.css.map": "/InnReserve-Dummy/static/css/main.286d946a.css.map",
+    "main.c11f2fee.js.map": "/InnReserve-Dummy/static/js/main.c11f2fee.js.map",
+    "453.673f1b01.chunk.js.map": "/InnReserve-Dummy/static/js/453.673f1b01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.062c3c65.css",
-    "static/js/main.1ae69791.js"
+    "static/css/main.286d946a.css",
+    "static/js/main.c11f2fee.js"
   ]
 }
