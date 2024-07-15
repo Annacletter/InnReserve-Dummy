@@ -9,7 +9,7 @@ import image8 from './images/image8.jpg';
 import image9 from './images/image9.jpg';
 import image10 from './images/image10.jpg';
 import image11 from './images/image11.jpg';
-import './App.css';
+import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Landing = () => {
